@@ -95,3 +95,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 for i in $(ls $HOME/.bashrc.d/*); do source $i; done
+
+# something is aliasing gp which is gitpod's cli, so unalias it
+unalias gp
+
+
